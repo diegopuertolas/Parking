@@ -12,6 +12,6 @@ public class Car : Vehicle
 
     public override void ShowDescription()
     {
-        Console.WriteLine($"{ NumberPlate } | { Brand } | { Seats }");
+        Console.WriteLine($"{ NumberPlate } | { Brand } | Plazas: { Seats }");
     }
 }
