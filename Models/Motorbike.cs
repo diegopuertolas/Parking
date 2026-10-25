@@ -11,6 +11,6 @@ public class Motorbike : Vehicle
 
     public override void ShowDescription()
     {
-        Console.WriteLine($"{NumberPlate} | {Brand} | {MaxSpeed}");
+        Console.WriteLine($"{NumberPlate} | {Brand} | {MaxSpeed} km/h");
     }
 }
